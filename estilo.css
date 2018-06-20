@@ -1,0 +1,9 @@
+body {
+	background: rgb(194,227,228);
+	color: white;
+}
+h1, h2, h3 {color: orange;
+    font-family: Castellar;
+}
+header{
+	background: rgb(143,203,205);
