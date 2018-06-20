@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CADIF1-CSS3</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"><!--la ruta incorrecta-->
+</head>
+<body>
+	<!--Aqui habia un div-->
+	<header id="encabezado">
+		<figure>
+			<img src="img/log.png" alt="Logo" width=900 height=100>
+			<!--No habia imagen-->
+		</figure>
+		<nav id="menu" align="right">
+			<ul>
+				<li><a href="html.html">HTML5</a></li>
+				<li><a href="css.html">CSS3</a></li>
+				<li><a href="java.html">Javascript</a></li>
+				<li><a href="jquery.html">JQUERY</a></li>
+				<li><a href="index.html">Pagina de Inicio</a></li>
+			</ul>
+	</header>
+	<section id="indice">
+		<ul>
+			<li><a href="#un">CSS3</a></li>
+			<li><a href="#do">Sintaxis</a></li>
+			<li><a href="#tre">Ventajas</a></li>
+		</ul>
+	</section>
+	
+	<section id="contenido">
+		<div align="center">
+				<img src="img/CSS3.png" width=160>
+			</div>
+		<article class="articulo"><!--El id se repite en otros elementos-->
+			<h2 id="un">CSS3</h2>
+
+			<p>Las hojas de estilo en cascada o (Cascading Style Sheets, o sus siglas CSS) hacen referencia a un lenguaje de hojas de estilos usado para describir la presentación semántica (el aspecto y formato) de un documento escrito en lenguaje de marcas. Su aplicación más común es dar estilo a páginas webs escritas en lenguaje HTML y XHTML, pero también puede ser aplicado a cualquier tipo de documentos XML, incluyendo SVG y XUL.</p>
+
+			<p>La información de estilo puede ser adjuntada como un documento separado o en el mismo documento HTML. En este último caso podrían definirse estilos generales en la cabecera del documento o en cada etiqueta particular mediante el atributo "style".</p>
+
+			<h3 id="do">Sintaxis</h3>
+
+			<p><strong>CSS</strong> tiene una sintaxis muy sencilla, que usa unas cuantas palabras clave tomadas del inglés para especificar los nombres de varias propiedades de estilo. Una hoja de estilo se compone de una lista de reglas. Cada regla o conjunto de reglas consiste en uno o más selectores y un bloque de declaración (o "bloque de estilo") con los estilos a aplicar para los elementos del documento que cumplan con el selector que les precede. Cada bloque de estilos se define entre llaves, y está formado por una o varias declaraciones de estilo con el formato propiedad:valor;.</p>
+
+			<p>En el CSS, los selectors marcarán qué elementos se verán afectados por cada bloque de estilo que les siga, pudiendo afectar a uno o varios elementos a la vez, en función de su tipo, nombre (name), ID, clase (class), posición dentro del Document Object Model, etcétera.</p>
+
+			<h3 id="tre">Ventajas</h3>
+
+			<p>Control centralizado de la presentación de un sitio web completo con lo que se agiliza de forma considerable la actualización del mismo.</p>
+
+			<p>Separación del contenido de la presentación, lo que facilita al creador, diseñador, usuario o dispositivo electrónico que muestre la página, la modificación de la visualización del documento sin alterar el contenido del mismo, sólo modificando algunos parámetros del CSS.</p>
+
+			<p>Optimización del ancho de banda de la conexión, pues pueden definirse los mismos estilos para muchos elementos con un sólo selector; o porque un mismo archivo CSS puede servir para una multitud de documentos.</p>
+
+			<p>Mejora en la accesibilidad del documento, pues con el uso del CSS se evitan antiguas prácticas necesarias para el control del diseño (como las tablas), y que iban en perjuicio de ciertos usos de los documentos, por parte de navegadores orientados a personas con algunas limitaciones sensoriales.</p>
+		</article>
+	</article>
+</section>
+<section align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/643dVVz65Ls?list=PL5mZlJHWhPyxCif2OzY0DZKad0byKFq85" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></section>
+<footer id="pie-pagina" align="center">
+	<span >Todos los derechos reservados. CADIF1</span>
+	<aside id="redes-sociales">
+		<nav>
+			<span>Facebook</span>
+			<span>Twitter</span>
+		</nav>
+	</aside>
+</footer>
+</body>
+</html>

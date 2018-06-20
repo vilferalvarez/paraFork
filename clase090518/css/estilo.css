@@ -1,0 +1,83 @@
+body {
+	background: rgb(194,227,228);
+	color: white;
+}
+h1, h2, h3 {color: orange;
+    font-family: Castellar;
+}
+header{
+	background: rgb(143,203,205);
+}
+
+article p{
+	background: rgba(239,246,246,0.35);
+	color: orange;
+    font-family: "Charlemagne Std";
+    
+}
+article span{
+    color: orange;
+    font-size: 32px;
+}
+.curso div{
+    background: rgba(239,246,246,0.35);
+    margin: 18px
+}
+nav ul li{
+	display: inline;
+}
+nav {
+    background-color: #333333;
+}
+
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(143,203,205);
+}
+
+.articulo p{
+	font-size: 18px;
+	text-align: justify;
+}
+
+article blockquote p{
+	text-align: justify;
+}
+article h2, article h3{
+	text-align: center;
+}
+#indice ul li a{
+    color: orange;
+    font-size: 16px;
+}
+.curso a{
+    text-decoration: none;
+}
+.tab{
+    border: 1px solid gray;
+    text-align: left;
+    color: black;
+    width: 500px;
+    border-collapse: collapse;
+}
+/**table,th,tr,td{
+    padding: 5px;
+    border-collapse: collapse;
+}*/
+.tab tr:nth-child(even){
+    background-color: gray
+}
+.fil{
+    background-color: white;
+}
+.coll{
+    padding: 5px
+}
+.coll,.fil,.col{
+    border: 1px solid gray;
+}
